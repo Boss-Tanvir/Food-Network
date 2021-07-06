@@ -1,0 +1,41 @@
+/* My Recipies Blog */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blog_section {
+  background-color: #e5e5e5;
+}
+.section_title {
+  text-align: center;
+}
+.section_title h1 {
+  color: #252525;
+}
+.section_title p {
+  color: #676767;
+  width: 500px;
+  margin: 10px auto;
+}
+.recipies_blog {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.blog_details {
+  width: 395px;
+  background: #fff;
+  margin: 0px 25px;
+  padding: 21px;
+  border-radius: 10px;
+}
+.blog_details h2 {
+  margin: 10px 0;
+}
+.recipies_blog img {
+  width: 350px;
+  height: 256px;
+}
